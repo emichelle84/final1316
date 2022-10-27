@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 *{box-sizing: border-box;}
-body{background-image: url("images/Ruben9439.jpg");
+body{background-image:url("images/Erin M Logo New.jpg");
 background-repeat:no-repeat;
 	background-size: cover;}	
 #container{
@@ -28,7 +28,7 @@ Aside{
 	}
 #main{width:750px;
 height:400px;
-background-color:rgba(140,69,192,0.72);
+background-color:lavenderblush;
 	float:left;}
 Footer{
 	height:50px;
@@ -37,6 +37,5 @@ Footer{
 	clear:both;}
 articleSmall{
 	padding: 10px 10px 10px 10px;}
-articleLarge{
-	padding: 10x 10x 10x 10x}
+articleLarge {padding: 10x 10x 10x 10x}
 h1{font-family: 'Homemade Apple', cursive;}
