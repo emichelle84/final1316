@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 *{box-sizing: border-box;}
-body{background-image:url("images/Erin M Logo New.jpg");
+body{background-image:url("images/lavender-paper-texture.jpg");
 background-repeat:no-repeat;
 	background-size: cover;}	
 #container{
@@ -37,5 +37,9 @@ Footer{
 	clear:both;}
 articleSmall{
 	padding: 10px 10px 10px 10px;}
-articleLarge {padding: 10x 10x 10x 10x}
-h1{font-family: 'Homemade Apple', cursive;}
+articleLarge{ 
+	padding: 10px 10px 10px 10px;}
+h1{font-family: 'Tangerine', cursive;}
+
+@media (max-width: 1174px){
+}
