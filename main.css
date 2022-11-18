@@ -22,17 +22,16 @@ nav{
 	height:50px;
 	background-color:#593A61;
 	margin-top:10px;}
-Aside{	
-	height:400px;
-	width:230px;
-	margin-right: 20px;
-	background-color:#5F5761;
-	float: left;
-	}
+
 #main{width:750px;
 height:400px;
-background-color:#E1CFE6;
-	float:left;}
+background-color:#F1DBF0;
+	float:center;}
+
+#main{width:750px;
+height:400px;
+background-color:#F1DBF0;
+	float:center;}
 Footer{
     height: 50px;
     width: 100%;
