@@ -1,10 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Portfolio</title>
-</head>
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2 5px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 30%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
 <body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Erin M Photography Portfolio</h1>
+  <p></p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="images/90325643_240816053722809_8917031918214578176_n.jpg" style="width:120%">
+    <img src="images/90568199_561639787784254_7429364120006164480_n.jpg" style="width:120%">
+    <img src="images/IMG_7701.jpg" style="width:120%">
+    <img src="images/img-4597_orig.jpg" style="width:120%">
+    <img src="images/img-4774_orig.jpg" style="width:120%">
+    <img src="images/lilrub.jpg" style="width:120%">
+    <img src="images/ruben2.jpg" style="width:120%">
+  </div>
+  
+  <div class="column">
+    <img src="images/highlights/1E0A8671.jpg" style="width:120%">
+    <img src="images/highlights/1E0A8679.jpg" style="width:120%">
+    <img src="images/highlights/1E0A8690.jpg" style="width:120%">
+    <img src="images/highlights/1E0A8723.jpg" style="width:120%">
+    <img src="images/highlights/1E0A8839.jpg" style="width:120%">
+    <img src="images/highlights/1E0A8750.jpg" style="width:120%">
+  </div> 
+   
+  <div class="column">
+    <img src="images/Ruben0001.jpg.jpg" style="width:120%">
+    <img src="images/ruben9433.jpg.jpg" style="width:120%">
+    <img src="images/Ruben9439.jpg.jpg" style="width:120%">
+    <img src="images/ruben9436.jpg.jpg" style="width:120%">
+    <img src="images/Ruben9440.jpg.jpg" style="width:120%">
+  </div>
+  </div>
 </body>
 </html>
+
+
+
